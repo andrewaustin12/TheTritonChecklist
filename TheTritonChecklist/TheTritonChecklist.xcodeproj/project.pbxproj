@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F61F5942B03C8FB008EBC7F /* TheTritonChecklistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5932B03C8FB008EBC7F /* TheTritonChecklistApp.swift */; };
+		3F61F5982B03C8FC008EBC7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F61F5972B03C8FC008EBC7F /* Assets.xcassets */; };
+		3F61F59B2B03C8FC008EBC7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F61F59A2B03C8FC008EBC7F /* Preview Assets.xcassets */; };
+		3F61F5A82B03CD07008EBC7F /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5A72B03CD07008EBC7F /* NotificationHandler.swift */; };
+		3F61F5AA2B03CD4D008EBC7F /* SplashViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5A92B03CD4D008EBC7F /* SplashViewModifier.swift */; };
+		3F61F5AC2B03CD67008EBC7F /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5AB2B03CD67008EBC7F /* SplashView.swift */; };
+		3F61F5AE2B03CEE1008EBC7F /* WarningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5AD2B03CEE1008EBC7F /* WarningView.swift */; };
+		3F61F5B52B03D03C008EBC7F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5B42B03D03C008EBC7F /* SettingsView.swift */; };
+		3F61F5B82B03D11F008EBC7F /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5B72B03D11F008EBC7F /* ProgressBarView.swift */; };
+		3F61F5BB2B03D15B008EBC7F /* RoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5BA2B03D15B008EBC7F /* RoundedShape.swift */; };
+		3F61F5BE2B03D192008EBC7F /* WarningHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5BD2B03D192008EBC7F /* WarningHeaderView.swift */; };
+		3F61F5C02B03D1DE008EBC7F /* TitleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5BF2B03D1DE008EBC7F /* TitleHeaderView.swift */; };
+		3F61F5C22B03D21C008EBC7F /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5C12B03D21C008EBC7F /* MainTabView.swift */; };
+		3F61F5C42B03D34B008EBC7F /* GearListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5C32B03D34B008EBC7F /* GearListView.swift */; };
+		3F61F5C62B03D384008EBC7F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5C52B03D384008EBC7F /* DetailView.swift */; };
+		3F61F5C82B03D3A4008EBC7F /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5C72B03D3A4008EBC7F /* ToDo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F61F5902B03C8FB008EBC7F /* TheTritonChecklist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheTritonChecklist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F61F5932B03C8FB008EBC7F /* TheTritonChecklistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheTritonChecklistApp.swift; sourceTree = "<group>"; };
+		3F61F5972B03C8FC008EBC7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F61F59A2B03C8FC008EBC7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F61F5A72B03CD07008EBC7F /* NotificationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHandler.swift; sourceTree = "<group>"; };
+		3F61F5A92B03CD4D008EBC7F /* SplashViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModifier.swift; sourceTree = "<group>"; };
+		3F61F5AB2B03CD67008EBC7F /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		3F61F5AD2B03CEE1008EBC7F /* WarningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningView.swift; sourceTree = "<group>"; };
+		3F61F5B42B03D03C008EBC7F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3F61F5B72B03D11F008EBC7F /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		3F61F5BA2B03D15B008EBC7F /* RoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShape.swift; sourceTree = "<group>"; };
+		3F61F5BD2B03D192008EBC7F /* WarningHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningHeaderView.swift; sourceTree = "<group>"; };
+		3F61F5BF2B03D1DE008EBC7F /* TitleHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleHeaderView.swift; sourceTree = "<group>"; };
+		3F61F5C12B03D21C008EBC7F /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		3F61F5C32B03D34B008EBC7F /* GearListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearListView.swift; sourceTree = "<group>"; };
+		3F61F5C52B03D384008EBC7F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		3F61F5C72B03D3A4008EBC7F /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F61F58D2B03C8FB008EBC7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F61F5872B03C8FB008EBC7F = {
+			isa = PBXGroup;
+			children = (
+				3F61F5922B03C8FB008EBC7F /* TheTritonChecklist */,
+				3F61F5912B03C8FB008EBC7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F61F5912B03C8FB008EBC7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F61F5902B03C8FB008EBC7F /* TheTritonChecklist.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F61F5922B03C8FB008EBC7F /* TheTritonChecklist */ = {
+			isa = PBXGroup;
+			children = (
+				3F61F5A12B03CC50008EBC7F /* Utils */,
+				3F61F5A32B03CC90008EBC7F /* SplashScreen */,
+				3F61F5A42B03CCAD008EBC7F /* Warning */,
+				3F61F5A52B03CCBB008EBC7F /* Core */,
+				3F61F5932B03C8FB008EBC7F /* TheTritonChecklistApp.swift */,
+				3F61F5972B03C8FC008EBC7F /* Assets.xcassets */,
+				3F61F5992B03C8FC008EBC7F /* Preview Content */,
+			);
+			path = TheTritonChecklist;
+			sourceTree = "<group>";
+		};
+		3F61F5992B03C8FC008EBC7F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F61F59A2B03C8FC008EBC7F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F61F5A12B03CC50008EBC7F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3F61F5A62B03CCE3008EBC7F /* Handlers */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3F61F5A32B03CC90008EBC7F /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				3F61F5A92B03CD4D008EBC7F /* SplashViewModifier.swift */,
+				3F61F5AB2B03CD67008EBC7F /* SplashView.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		3F61F5A42B03CCAD008EBC7F /* Warning */ = {
+			isa = PBXGroup;
+			children = (
+				3F61F5AD2B03CEE1008EBC7F /* WarningView.swift */,
+			);
+			path = Warning;
+			sourceTree = "<group>";
+		};
+		3F61F5A52B03CCBB008EBC7F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3F61F5AF2B03CF04008EBC7F /* MainTab */,
+				3F61F5B02B03CF0B008EBC7F /* TritonBuildFlow */,
+				3F61F5B12B03CF34008EBC7F /* GearList */,
+				3F61F5B22B03CF3C008EBC7F /* Settings */,
+				3F61F5B32B03CF44008EBC7F /* Components */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3F61F5A62B03CCE3008EBC7F /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				3F61F5A72B03CD07008EBC7F /* NotificationHandler.swift */,
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
+		3F61F5AF2B03CF04008EBC7F /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				3F61F5C12B03D21C008EBC7F /* MainTabView.swift */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		3F61F5B02B03CF0B008EBC7F /* TritonBuildFlow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TritonBuildFlow;
+			sourceTree = "<group>";
+		};
+		3F61F5B12B03CF34008EBC7F /* GearList */ = {
+			isa = PBXGroup;
+			children = (
+				3F61F5C32B03D34B008EBC7F /* GearListView.swift */,
+				3F61F5C52B03D384008EBC7F /* DetailView.swift */,
+				3F61F5C72B03D3A4008EBC7F /* ToDo.swift */,
+			);
+			path = GearList;
+			sourceTree = "<group>";
+		};
+		3F61F5B22B03CF3C008EBC7F /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3F61F5B42B03D03C008EBC7F /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3F61F5B32B03CF44008EBC7F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3F61F5BC2B03D17F008EBC7F /* Headers */,
+				3F61F5B92B03D14C008EBC7F /* Modifiers */,
+				3F61F5B62B03D10D008EBC7F /* ProgressBar */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3F61F5B62B03D10D008EBC7F /* ProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				3F61F5B72B03D11F008EBC7F /* ProgressBarView.swift */,
+			);
+			path = ProgressBar;
+			sourceTree = "<group>";
+		};
+		3F61F5B92B03D14C008EBC7F /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				3F61F5BA2B03D15B008EBC7F /* RoundedShape.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		3F61F5BC2B03D17F008EBC7F /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				3F61F5BD2B03D192008EBC7F /* WarningHeaderView.swift */,
+				3F61F5BF2B03D1DE008EBC7F /* TitleHeaderView.swift */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F61F58F2B03C8FB008EBC7F /* TheTritonChecklist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F61F59E2B03C8FC008EBC7F /* Build configuration list for PBXNativeTarget "TheTritonChecklist" */;
+			buildPhases = (
+				3F61F58C2B03C8FB008EBC7F /* Sources */,
+				3F61F58D2B03C8FB008EBC7F /* Frameworks */,
+				3F61F58E2B03C8FB008EBC7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheTritonChecklist;
+			productName = TheTritonChecklist;
+			productReference = 3F61F5902B03C8FB008EBC7F /* TheTritonChecklist.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F61F5882B03C8FB008EBC7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3F61F58F2B03C8FB008EBC7F = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 3F61F58B2B03C8FB008EBC7F /* Build configuration list for PBXProject "TheTritonChecklist" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F61F5872B03C8FB008EBC7F;
+			productRefGroup = 3F61F5912B03C8FB008EBC7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F61F58F2B03C8FB008EBC7F /* TheTritonChecklist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F61F58E2B03C8FB008EBC7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F61F59B2B03C8FC008EBC7F /* Preview Assets.xcassets in Resources */,
+				3F61F5982B03C8FC008EBC7F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F61F58C2B03C8FB008EBC7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F61F5B52B03D03C008EBC7F /* SettingsView.swift in Sources */,
+				3F61F5C82B03D3A4008EBC7F /* ToDo.swift in Sources */,
+				3F61F5AA2B03CD4D008EBC7F /* SplashViewModifier.swift in Sources */,
+				3F61F5BB2B03D15B008EBC7F /* RoundedShape.swift in Sources */,
+				3F61F5C42B03D34B008EBC7F /* GearListView.swift in Sources */,
+				3F61F5BE2B03D192008EBC7F /* WarningHeaderView.swift in Sources */,
+				3F61F5AC2B03CD67008EBC7F /* SplashView.swift in Sources */,
+				3F61F5A82B03CD07008EBC7F /* NotificationHandler.swift in Sources */,
+				3F61F5C62B03D384008EBC7F /* DetailView.swift in Sources */,
+				3F61F5C02B03D1DE008EBC7F /* TitleHeaderView.swift in Sources */,
+				3F61F5B82B03D11F008EBC7F /* ProgressBarView.swift in Sources */,
+				3F61F5942B03C8FB008EBC7F /* TheTritonChecklistApp.swift in Sources */,
+				3F61F5AE2B03CEE1008EBC7F /* WarningView.swift in Sources */,
+				3F61F5C22B03D21C008EBC7F /* MainTabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3F61F59C2B03C8FC008EBC7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F61F59D2B03C8FC008EBC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F61F59F2B03C8FC008EBC7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TheTritonChecklist/Preview Content\"";
+				DEVELOPMENT_TEAM = BV862H23C8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andy.TheTritonChecklist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F61F5A02B03C8FC008EBC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TheTritonChecklist/Preview Content\"";
+				DEVELOPMENT_TEAM = BV862H23C8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andy.TheTritonChecklist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F61F58B2B03C8FB008EBC7F /* Build configuration list for PBXProject "TheTritonChecklist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F61F59C2B03C8FC008EBC7F /* Debug */,
+				3F61F59D2B03C8FC008EBC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F61F59E2B03C8FC008EBC7F /* Build configuration list for PBXNativeTarget "TheTritonChecklist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F61F59F2B03C8FC008EBC7F /* Debug */,
+				3F61F5A02B03C8FC008EBC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F61F5882B03C8FB008EBC7F /* Project object */;
+}
