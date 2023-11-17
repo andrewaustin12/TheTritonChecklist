@@ -12,7 +12,7 @@ struct MainTabView: View {
     
     var body: some View {
         TabView(selection: $selectedIndex) {
-            Text("Build")
+            StartView()
                 .onAppear{
                     selectedIndex = 0
                 }
@@ -21,7 +21,7 @@ struct MainTabView: View {
                     Text("Build")
                 }.tag(0)
             
-            Text("GearList")
+            GearListView()
                 .onAppear{
                     selectedIndex = 1
                 }

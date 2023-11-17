@@ -23,6 +23,27 @@
 		3F61F5C42B03D34B008EBC7F /* GearListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5C32B03D34B008EBC7F /* GearListView.swift */; };
 		3F61F5C62B03D384008EBC7F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5C52B03D384008EBC7F /* DetailView.swift */; };
 		3F61F5C82B03D3A4008EBC7F /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5C72B03D3A4008EBC7F /* ToDo.swift */; };
+		3F61F5CC2B03D898008EBC7F /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5CB2B03D898008EBC7F /* StartView.swift */; };
+		3F61F5CF2B03D8ED008EBC7F /* PrimaryButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5CE2B03D8ED008EBC7F /* PrimaryButtonModifier.swift */; };
+		3F61F5D12B03DA09008EBC7F /* PreAssembly1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5D02B03DA09008EBC7F /* PreAssembly1View.swift */; };
+		3F61F5D32B04C811008EBC7F /* PreAssembly2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5D22B04C811008EBC7F /* PreAssembly2View.swift */; };
+		3F61F5D52B04DBA5008EBC7F /* PreAssembly3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5D42B04DBA5008EBC7F /* PreAssembly3View.swift */; };
+		3F61F5D72B04E18D008EBC7F /* PreAssembly4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5D62B04E18D008EBC7F /* PreAssembly4View.swift */; };
+		3F61F5D92B04E3A2008EBC7F /* AssemblyCounterlungsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5D82B04E3A2008EBC7F /* AssemblyCounterlungsView.swift */; };
+		3F61F5DB2B04E4C4008EBC7F /* AssemblyLoopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5DA2B04E4C4008EBC7F /* AssemblyLoopView.swift */; };
+		3F61F5DD2B04E7A5008EBC7F /* AssemblyGasLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5DC2B04E7A5008EBC7F /* AssemblyGasLineView.swift */; };
+		3F61F5DF2B04EB2D008EBC7F /* AssemblyElectronicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5DE2B04EB2D008EBC7F /* AssemblyElectronicsView.swift */; };
+		3F61F5E12B04EBF3008EBC7F /* AssemblyPosNegTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5E02B04EBF3008EBC7F /* AssemblyPosNegTestView.swift */; };
+		3F61F5E42B04EDAD008EBC7F /* CountdownTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5E32B04EDAD008EBC7F /* CountdownTimerView.swift */; };
+		3F61F5E62B04EE82008EBC7F /* AssemblyCalibrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5E52B04EE82008EBC7F /* AssemblyCalibrationView.swift */; };
+		3F61F5E82B04F09C008EBC7F /* AssemblyBcdAdvView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5E72B04F09C008EBC7F /* AssemblyBcdAdvView.swift */; };
+		3F61F5EA2B050DF8008EBC7F /* TritonSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5E92B050DF8008EBC7F /* TritonSummaryView.swift */; };
+		3F61F5EC2B050F87008EBC7F /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61F5EB2B050F87008EBC7F /* AppViewModel.swift */; };
+		3F7359F22B06190A00E1BB3F /* SummaryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7359F12B06190A00E1BB3F /* SummaryCard.swift */; };
+		3F7359F42B06244400E1BB3F /* SummaryOxygenCylinderCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7359F32B06244400E1BB3F /* SummaryOxygenCylinderCard.swift */; };
+		3F7359F62B06272700E1BB3F /* SummaryMonoxAirReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7359F52B06272700E1BB3F /* SummaryMonoxAirReading.swift */; };
+		3F7359F82B062D6C00E1BB3F /* SummaryDiluentCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7359F72B062D6C00E1BB3F /* SummaryDiluentCard.swift */; };
+		3F7359FA2B06327E00E1BB3F /* SummaryCalibrationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7359F92B06327E00E1BB3F /* SummaryCalibrationCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +64,27 @@
 		3F61F5C32B03D34B008EBC7F /* GearListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearListView.swift; sourceTree = "<group>"; };
 		3F61F5C52B03D384008EBC7F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		3F61F5C72B03D3A4008EBC7F /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		3F61F5CB2B03D898008EBC7F /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		3F61F5CE2B03D8ED008EBC7F /* PrimaryButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonModifier.swift; sourceTree = "<group>"; };
+		3F61F5D02B03DA09008EBC7F /* PreAssembly1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreAssembly1View.swift; sourceTree = "<group>"; };
+		3F61F5D22B04C811008EBC7F /* PreAssembly2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreAssembly2View.swift; sourceTree = "<group>"; };
+		3F61F5D42B04DBA5008EBC7F /* PreAssembly3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreAssembly3View.swift; sourceTree = "<group>"; };
+		3F61F5D62B04E18D008EBC7F /* PreAssembly4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreAssembly4View.swift; sourceTree = "<group>"; };
+		3F61F5D82B04E3A2008EBC7F /* AssemblyCounterlungsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyCounterlungsView.swift; sourceTree = "<group>"; };
+		3F61F5DA2B04E4C4008EBC7F /* AssemblyLoopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyLoopView.swift; sourceTree = "<group>"; };
+		3F61F5DC2B04E7A5008EBC7F /* AssemblyGasLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyGasLineView.swift; sourceTree = "<group>"; };
+		3F61F5DE2B04EB2D008EBC7F /* AssemblyElectronicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyElectronicsView.swift; sourceTree = "<group>"; };
+		3F61F5E02B04EBF3008EBC7F /* AssemblyPosNegTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyPosNegTestView.swift; sourceTree = "<group>"; };
+		3F61F5E32B04EDAD008EBC7F /* CountdownTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimerView.swift; sourceTree = "<group>"; };
+		3F61F5E52B04EE82008EBC7F /* AssemblyCalibrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyCalibrationView.swift; sourceTree = "<group>"; };
+		3F61F5E72B04F09C008EBC7F /* AssemblyBcdAdvView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyBcdAdvView.swift; sourceTree = "<group>"; };
+		3F61F5E92B050DF8008EBC7F /* TritonSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TritonSummaryView.swift; sourceTree = "<group>"; };
+		3F61F5EB2B050F87008EBC7F /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		3F7359F12B06190A00E1BB3F /* SummaryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryCard.swift; sourceTree = "<group>"; };
+		3F7359F32B06244400E1BB3F /* SummaryOxygenCylinderCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryOxygenCylinderCard.swift; sourceTree = "<group>"; };
+		3F7359F52B06272700E1BB3F /* SummaryMonoxAirReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryMonoxAirReading.swift; sourceTree = "<group>"; };
+		3F7359F72B062D6C00E1BB3F /* SummaryDiluentCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryDiluentCard.swift; sourceTree = "<group>"; };
+		3F7359F92B06327E00E1BB3F /* SummaryCalibrationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryCalibrationCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +192,8 @@
 		3F61F5B02B03CF0B008EBC7F /* TritonBuildFlow */ = {
 			isa = PBXGroup;
 			children = (
+				3F61F5CA2B03D869008EBC7F /* ViewModel */,
+				3F61F5C92B03D863008EBC7F /* Views */,
 			);
 			path = TritonBuildFlow;
 			sourceTree = "<group>";
@@ -175,6 +219,9 @@
 		3F61F5B32B03CF44008EBC7F /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				3F7359F02B0618D100E1BB3F /* Cards */,
+				3F61F5E22B04ED8A008EBC7F /* Timer */,
+				3F61F5CD2B03D8DD008EBC7F /* Buttons */,
 				3F61F5BC2B03D17F008EBC7F /* Headers */,
 				3F61F5B92B03D14C008EBC7F /* Modifiers */,
 				3F61F5B62B03D10D008EBC7F /* ProgressBar */,
@@ -205,6 +252,62 @@
 				3F61F5BF2B03D1DE008EBC7F /* TitleHeaderView.swift */,
 			);
 			path = Headers;
+			sourceTree = "<group>";
+		};
+		3F61F5C92B03D863008EBC7F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F61F5CB2B03D898008EBC7F /* StartView.swift */,
+				3F61F5D02B03DA09008EBC7F /* PreAssembly1View.swift */,
+				3F61F5D22B04C811008EBC7F /* PreAssembly2View.swift */,
+				3F61F5D42B04DBA5008EBC7F /* PreAssembly3View.swift */,
+				3F61F5D62B04E18D008EBC7F /* PreAssembly4View.swift */,
+				3F61F5D82B04E3A2008EBC7F /* AssemblyCounterlungsView.swift */,
+				3F61F5DA2B04E4C4008EBC7F /* AssemblyLoopView.swift */,
+				3F61F5DC2B04E7A5008EBC7F /* AssemblyGasLineView.swift */,
+				3F61F5DE2B04EB2D008EBC7F /* AssemblyElectronicsView.swift */,
+				3F61F5E02B04EBF3008EBC7F /* AssemblyPosNegTestView.swift */,
+				3F61F5E52B04EE82008EBC7F /* AssemblyCalibrationView.swift */,
+				3F61F5E72B04F09C008EBC7F /* AssemblyBcdAdvView.swift */,
+				3F61F5E92B050DF8008EBC7F /* TritonSummaryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3F61F5CA2B03D869008EBC7F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3F61F5EB2B050F87008EBC7F /* AppViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3F61F5CD2B03D8DD008EBC7F /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				3F61F5CE2B03D8ED008EBC7F /* PrimaryButtonModifier.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		3F61F5E22B04ED8A008EBC7F /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				3F61F5E32B04EDAD008EBC7F /* CountdownTimerView.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		3F7359F02B0618D100E1BB3F /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				3F7359F12B06190A00E1BB3F /* SummaryCard.swift */,
+				3F7359F32B06244400E1BB3F /* SummaryOxygenCylinderCard.swift */,
+				3F7359F52B06272700E1BB3F /* SummaryMonoxAirReading.swift */,
+				3F7359F72B062D6C00E1BB3F /* SummaryDiluentCard.swift */,
+				3F7359F92B06327E00E1BB3F /* SummaryCalibrationCard.swift */,
+			);
+			path = Cards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,17 +382,38 @@
 			files = (
 				3F61F5B52B03D03C008EBC7F /* SettingsView.swift in Sources */,
 				3F61F5C82B03D3A4008EBC7F /* ToDo.swift in Sources */,
+				3F61F5EA2B050DF8008EBC7F /* TritonSummaryView.swift in Sources */,
+				3F61F5E82B04F09C008EBC7F /* AssemblyBcdAdvView.swift in Sources */,
 				3F61F5AA2B03CD4D008EBC7F /* SplashViewModifier.swift in Sources */,
+				3F7359F62B06272700E1BB3F /* SummaryMonoxAirReading.swift in Sources */,
+				3F61F5D72B04E18D008EBC7F /* PreAssembly4View.swift in Sources */,
 				3F61F5BB2B03D15B008EBC7F /* RoundedShape.swift in Sources */,
 				3F61F5C42B03D34B008EBC7F /* GearListView.swift in Sources */,
+				3F61F5E12B04EBF3008EBC7F /* AssemblyPosNegTestView.swift in Sources */,
+				3F61F5D12B03DA09008EBC7F /* PreAssembly1View.swift in Sources */,
+				3F61F5CF2B03D8ED008EBC7F /* PrimaryButtonModifier.swift in Sources */,
 				3F61F5BE2B03D192008EBC7F /* WarningHeaderView.swift in Sources */,
+				3F61F5CC2B03D898008EBC7F /* StartView.swift in Sources */,
+				3F61F5D32B04C811008EBC7F /* PreAssembly2View.swift in Sources */,
 				3F61F5AC2B03CD67008EBC7F /* SplashView.swift in Sources */,
+				3F7359F82B062D6C00E1BB3F /* SummaryDiluentCard.swift in Sources */,
 				3F61F5A82B03CD07008EBC7F /* NotificationHandler.swift in Sources */,
+				3F61F5E42B04EDAD008EBC7F /* CountdownTimerView.swift in Sources */,
+				3F61F5D52B04DBA5008EBC7F /* PreAssembly3View.swift in Sources */,
+				3F7359F42B06244400E1BB3F /* SummaryOxygenCylinderCard.swift in Sources */,
+				3F61F5DF2B04EB2D008EBC7F /* AssemblyElectronicsView.swift in Sources */,
+				3F61F5E62B04EE82008EBC7F /* AssemblyCalibrationView.swift in Sources */,
+				3F61F5EC2B050F87008EBC7F /* AppViewModel.swift in Sources */,
+				3F7359FA2B06327E00E1BB3F /* SummaryCalibrationCard.swift in Sources */,
+				3F61F5DD2B04E7A5008EBC7F /* AssemblyGasLineView.swift in Sources */,
 				3F61F5C62B03D384008EBC7F /* DetailView.swift in Sources */,
 				3F61F5C02B03D1DE008EBC7F /* TitleHeaderView.swift in Sources */,
+				3F61F5D92B04E3A2008EBC7F /* AssemblyCounterlungsView.swift in Sources */,
 				3F61F5B82B03D11F008EBC7F /* ProgressBarView.swift in Sources */,
 				3F61F5942B03C8FB008EBC7F /* TheTritonChecklistApp.swift in Sources */,
+				3F7359F22B06190A00E1BB3F /* SummaryCard.swift in Sources */,
 				3F61F5AE2B03CEE1008EBC7F /* WarningView.swift in Sources */,
+				3F61F5DB2B04E4C4008EBC7F /* AssemblyLoopView.swift in Sources */,
 				3F61F5C22B03D21C008EBC7F /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
