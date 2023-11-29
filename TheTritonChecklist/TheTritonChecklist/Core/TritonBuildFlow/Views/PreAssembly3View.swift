@@ -21,7 +21,7 @@ struct PreAssembly3View: View {
         NavigationStack {
             VStack(alignment: .leading) {
                 TitleHeaderView(title: "Diluent / Bailout Cylinder")
-                ProgressBarView(progress: Double((350/9) * 2))
+                ProgressBarView(progress: Double((350/10) * 2))
                     .padding(.leading)
                 
                 Form {

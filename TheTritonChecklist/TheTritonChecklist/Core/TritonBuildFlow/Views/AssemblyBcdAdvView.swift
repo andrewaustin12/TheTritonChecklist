@@ -15,11 +15,11 @@ struct AssemblyBcdAdvView: View {
         NavigationStack {
             VStack(alignment: .leading) {
                 TitleHeaderView(title: "ADV & BCD Check")
-                ProgressBarView(progress: Double((350/9) * 9))
+                ProgressBarView(progress: Double((350/10) * 10))
                     .padding(.leading)
                 
                 Form {
-                    // Step 28-29
+                    // Steps 28-29
                     Section {
                         
                         Toggle("Connect ADV & BCD", isOn: $appViewModel.assemblyBcdAdvViewModel.isAdvBcdConnectedChecked)
@@ -27,7 +27,7 @@ struct AssemblyBcdAdvView: View {
                         Toggle("Check ADV function, no free flow, manual addition", isOn: $appViewModel.assemblyBcdAdvViewModel.isAdvFunctionChecked)
                         
                     } header: {
-                        Text("Step 28-29")
+                        Text("Steps 28-29")
                     }
                 }
                 .toggleStyle(SwitchToggleStyle(tint: .unitPrimaryForeground))

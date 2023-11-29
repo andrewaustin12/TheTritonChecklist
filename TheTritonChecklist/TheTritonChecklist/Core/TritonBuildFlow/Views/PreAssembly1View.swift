@@ -20,7 +20,7 @@ struct PreAssembly1View: View {
         NavigationStack {
             VStack(alignment: .leading) {
                 TitleHeaderView(title: "Monox PPO2 Display & Optional Shearwater Computer")
-                ProgressBarView(progress: Double((350/9) * 1))
+                ProgressBarView(progress: Double((350/10) * 0.1))
                     .padding(.leading)
                 
                 Form {

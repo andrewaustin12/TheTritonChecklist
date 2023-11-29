@@ -17,7 +17,7 @@ struct AssemblyPosNegTestView: View {
         NavigationStack {
             VStack(alignment: .leading) {
                 TitleHeaderView(title: "Pos/Neg Tests")
-                ProgressBarView(progress: Double((350/9) * 7))
+                ProgressBarView(progress: Double((350/10) * 8))
                     .padding(.leading)
                 
                 Form {

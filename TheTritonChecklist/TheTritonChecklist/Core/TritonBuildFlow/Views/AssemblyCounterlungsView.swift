@@ -14,7 +14,7 @@ struct AssemblyCounterlungsView: View {
         NavigationStack {
             VStack(alignment: .leading) {
                 TitleHeaderView(title: "Scrubber / Canister")
-                ProgressBarView(progress: Double((350/9) * 4))
+                ProgressBarView(progress: Double((350/10) * 4))
                     .padding(.leading)
                 
                 Form {

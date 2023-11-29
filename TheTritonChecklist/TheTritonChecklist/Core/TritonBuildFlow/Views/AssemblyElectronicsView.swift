@@ -15,7 +15,7 @@ struct AssemblyElectronicsView: View {
         NavigationStack {
             VStack(alignment: .leading) {
                 TitleHeaderView(title: "Electronics")
-                ProgressBarView(progress: Double((350/9) * 6))
+                ProgressBarView(progress: Double((350/10) * 7))
                     .padding(.leading)
                 
                 Form {

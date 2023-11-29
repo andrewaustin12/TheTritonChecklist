@@ -14,7 +14,7 @@ struct PreAssembly4View: View {
         NavigationStack {
             VStack(alignment: .leading) {
                 TitleHeaderView(title: "Scrubber / Canister")
-                ProgressBarView(progress: Double((350/9) * 3))
+                ProgressBarView(progress: Double((350/10) * 3))
                     .padding(.leading)
                 
                 Form {

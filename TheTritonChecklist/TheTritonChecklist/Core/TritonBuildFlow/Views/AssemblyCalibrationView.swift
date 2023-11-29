@@ -20,7 +20,7 @@ struct AssemblyCalibrationView: View {
         NavigationStack {
             VStack(alignment: .leading) {
                 TitleHeaderView(title: "Calibration")
-                ProgressBarView(progress: Double((350/9) * 8))
+                ProgressBarView(progress: Double((350/10) * 9))
                     .padding(.leading)
                 
                 Form {
@@ -71,6 +71,10 @@ struct AssemblyCalibrationView: View {
                         } label: {
                             Image(systemName: "house")
                         }
+                    }
+                    ToolbarItemGroup(placement: .keyboard) {
+                        Spacer()
+                        Button("Dismiss") { focusedTextField = nil }
                     }
                 }
             }

@@ -14,7 +14,7 @@ struct AssemblyLoopView: View {
         NavigationStack {
             VStack(alignment: .leading) {
                 TitleHeaderView(title: "Loop")
-                ProgressBarView(progress: Double((350/9) * 5))
+                ProgressBarView(progress: Double((350/10) * 5))
                     .padding(.leading)
                 
                 Form {

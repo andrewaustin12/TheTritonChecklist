@@ -21,7 +21,7 @@ struct PreAssembly2View: View {
         NavigationStack {
             VStack(alignment: .leading) {
                 TitleHeaderView(title: "Oxygen Cylinder")
-                ProgressBarView(progress: Double((350/9) * 1))
+                ProgressBarView(progress: Double((350/10) * 1))
                     .padding(.leading)
                 
                 Form {

@@ -12,7 +12,7 @@ struct WarningView: View {
         NavigationStack {
             VStack {
                 HStack {
-                    WarningHeaderView(title1: "The", title2: "T-Reb", title3: "Checklist")
+                    WarningHeaderView(title1: "The", title2: "Triton", title3: "Checklist")
                 }
                 .ignoresSafeArea()
                 
