@@ -13,7 +13,7 @@ struct AssemblyGasLineView: View {
     var body: some View {
         NavigationStack {
             VStack(alignment: .leading) {
-                TitleHeaderView(title: "Loop")
+                TitleHeaderView(title: "Gas Line")
                 ProgressBarView(progress: Double((350/10) * 6))
                     .padding(.leading)
                 
