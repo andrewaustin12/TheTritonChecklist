@@ -12,7 +12,7 @@ struct GearListView: View {
     @State private var sheetIsPresented = false
     @Query var toDos: [ToDo]
     @Environment(\.modelContext) var modelContext
-    
+    let maxWidthForIpad: CGFloat = 700
     
     var body: some View {
         NavigationStack {
@@ -42,9 +42,9 @@ struct GearListView: View {
                         }
                     } header: {
                         Text("Gear List")
-                            .font(.title2)
+                            .font(.title)
+                            .foregroundStyle(Color.unitPrimaryForeground)
                             .bold()
-                            .foregroundStyle(.unitPrimaryForeground)
                     }
                     
                 }
@@ -54,8 +54,7 @@ struct GearListView: View {
                 } label: {
                     Image(systemName: "plus.circle.fill")
                         .resizable()
-                        .foregroundColor(.unitPrimaryForeground)
-                        .accentColor(.white)
+                        .accentColor(Color.unitPrimaryForeground)
                         .frame(width: 60, height: 60)
                         .padding()
                 }
@@ -66,11 +65,21 @@ struct GearListView: View {
                         DetailView(toDo: ToDo()) // new value
                     }
                 }
+                
+            }
+            .overlay {
+                if toDos.isEmpty {
+                    ContentUnavailableView(label: {
+                        Label("No Gear", systemImage: "list.bullet.rectangle.portrait")
+                    }, description: {
+                        Text("Start adding items to see your list.")
+                    })
+                    .offset(y: -60)
+                }
             }
         }
     }
 }
-
 #Preview {
     GearListView()
 }
